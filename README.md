@@ -60,6 +60,8 @@ The original dataset contains multiple land cover classes, including but not lim
 - River island
 - Runway
 - School
+## Dataset Sample Images
+![image](https://github.com/user-attachments/assets/4e5c952f-86c8-44d2-b312-393713fa9ebc)
 
 ## Data Preprocessing
 - **Resizing**: All images were resized to 256x256 pixels.
@@ -102,6 +104,20 @@ The original dataset contains multiple land cover classes, including but not lim
 - **Precision**: 99.13%
 - **Recall**: 99.12%
 - **F1-Score**: 99.12%
+
+## Results & Evaluation Visuals
+- Predicted Image Custom CNN:
+![image](https://github.com/user-attachments/assets/12af7f0f-58ae-476e-9078-894b9095d54d)
+
+- Predicted Image ResNet-18:
+![image](https://github.com/user-attachments/assets/2611ca49-7d09-4466-9cab-c73936be6e7a)
+
+- Model Train & Validation Charts
+![image](https://github.com/user-attachments/assets/e1b63190-bbe1-42e0-a6cc-4017bd24c1e5)
+
+- Heatmaps
+![image](https://github.com/user-attachments/assets/df3d6c73-0f41-45be-b508-ffe36d7a1da8)
+![image](https://github.com/user-attachments/assets/fc987573-1c05-4769-9ce0-c97fd9282366)
 
 ## Conclusion
 This project successfully demonstrated the application of deep learning techniques in remote sensing image classification. The comparison highlighted the superior performance of the ResNet-18 model over the custom CNN. Future work includes exploring more advanced architectures, incorporating additional data augmentation techniques, and experimenting with other remote sensing datasets.
